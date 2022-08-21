@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-style: none;
+    text-decoration: none;
+}
+
+header {
+    background-image: url('https://static.billboard.com/files/media/Will-Smith-Premiere-of-the-film-Aladdin-may-11-2019-billboard-1548-compressed.jpg');
+    background-size: 100%;
+    height: 600px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(228, 35, 35);
+    margin: 5px;
+    font-size: 18px;
+}
+
+header a:hover {
+    color: rgb(190, 32, 32);
+}
+
+header a.ativo {
+    border-bottom: rgb(228, 35, 35) solid 1px;
+}
+
+header nav {
+    margin-left: 93%;
+}
+
+header ul {
+    background: rgb(56, 56, 56);
+    border-radius: 5px;
+}
+
+main {
+    text-align: center;
+    margin: 5% 20%;
+}
+
+main h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 5%;
+}
+
+footer .icons {
+    background: rgb(223, 223, 223);
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+footer .icons .icon {
+    margin: 5% auto 5% auto;
+}
+
+footer .footer {
+    background: rgb(49, 49, 49);
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+footer .footer p {
+    margin: 5% auto 5% auto;
+    color: #fff;
+}
+
+footer .footer :nth-child(1) {
+    font-weight: bolder;
+}
+
+@media (max-width: 900px) {
+
+    header {
+        background-image: url('https://th.bing.com/th/id/R.12b44cee3169e73881b727b2b0ad93d8?rik=f2sfrfx65Q6gGQ&riu=http%3a%2f%2fimage.tmdb.org%2ft%2fp%2foriginal%2fzCrnERhs0L8FNK6xz4f5wWp0pKK.jpg&ehk=G2hqDzddtSWqNou4ux06R4mE83egAyVwK8SDCH5ev5I%3d&risl=&pid=ImgRaw&r=0');
+        background-size: 100% 100%;
+    }
+
+    main {
+        text-align: center;
+        margin: 5% 10%;
+    }
+
+    footer .icons {
+        flex-direction: column;
+    }
+
+    footer .footer {
+        flex-direction: column;
+    }
+
+}
